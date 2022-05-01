@@ -3,9 +3,9 @@ package Board;
 import java.util.Scanner;
 
 public class BoardServiceExample {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		Scanner scanner = new Scanner(System.in);
-		BoardDAO dao = new BoardDAO();
+		BoardDao dao = new BoardDao();
 
 		while (true) {
 			dao.getBoardList();
